@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 import cv2
 
 # image importing
@@ -20,4 +13,3 @@ if k == 27: # wsc
 elif k == ord('s'):
     cv2.imwrite("messi_gray.png", img)
     cv2.destroyAllWindows()
-    

@@ -7,7 +7,7 @@ video_name = "MOT17-04-DPM.mp4"
 
 cap = cv2.VideoCapture(video_name)
 
-print("weight: ", cap.get(3))
+print("width: ", cap.get(3))
 print("height: ", cap.get(4))
 
 if cap.isOpened() == False:
